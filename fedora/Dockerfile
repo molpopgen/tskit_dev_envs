@@ -6,6 +6,7 @@ COPY bootstrap_devel.sh /bootstrap
 
 RUN dnf install -y gcc g++ meson python3.10 python3.10-devel \
   CUnit-devel \
+  zlib-devel \
   gh \
   git \
   meson \

@@ -15,6 +15,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -qq -y install meso
   python3-venv \
   libgsl-dev \
   libcunit1-dev \
+  zlib1g-dev \
   # Pure convenience below
   kitty \
   neovim \
