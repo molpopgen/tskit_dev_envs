@@ -1,4 +1,6 @@
-FROM fedora:37
+# NOTE: sha256 tags only seem to work when pulling from quay.io.
+# Trying to pull from docker.io gets you a "manifest not known"
+FROM quay.io/fedora/fedora@sha256:ce08a91085403ecbc637eb2a96bd3554d75537871a12a14030b89243501050f2
 
 WORKDIR /bootstrap
 
