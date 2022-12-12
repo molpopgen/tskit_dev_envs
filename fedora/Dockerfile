@@ -21,4 +21,5 @@ RUN dnf install -y gcc g++ meson python3.10 python3.10-devel \
   vim \
   kitty \ 
   mozilla-fira-* \
+  ripgrep \
   && curl -sS https://starship.rs/install.sh | sh -s -- --yes
