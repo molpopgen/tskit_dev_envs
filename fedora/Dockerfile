@@ -22,4 +22,6 @@ RUN dnf install -y gcc g++ meson python3.10 python3.10-devel \
   kitty \ 
   mozilla-fira-* \
   ripgrep \
-  && curl -sS https://starship.rs/install.sh | sh -s -- --yes
+  && curl -sS https://starship.rs/install.sh | sh -s -- --yes \
+  # Clean up our download cache
+  && dnf clean all
